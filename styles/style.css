@@ -210,4 +210,74 @@ input {
 	border-color: white;
 }
 
+footer {
+	margin-top: 10px;
+	width: 1024px;
+	height: 90px;
+}
 
+#footer1 {
+	display: inline;
+	float: left;
+	clear: both;
+	text-align: left;
+	margin-left: 20px;
+	font-size: 0.8334em;
+	line-height: 1.2;
+	margin-top: 4px;
+}
+
+p > a {
+	text-decoration: none;
+	color: rgb(0, 136, 204);
+	display: inline-block;
+	border-width: medium;
+}
+
+#footer2 {
+	display: inline;
+	float: right;
+	text-align: right;
+	margin-right: 15px;
+	margin-top: 6px;
+	list-style: none outside none;
+	font-size: 0.8334em;
+	line-height: 1.2;
+}
+
+#footer2 > a {
+	text-decoration: none;
+	color: rgb(0, 136, 204);
+	display: inline-block;
+	border-width: medium;
+	padding-right: 5px;
+	border-right: 1px lightgray solid;
+}
+
+#country {
+	position: relative;
+	top: 4px;
+	left: 2px;
+}
+
+#footer3 {
+	display: inline;
+	float: left;
+	clear: both;
+	text-align: left;
+	margin-left: 20px;
+	font-size: 0.8334em;
+	line-height: 1.2;
+	margin-top: 4px;
+	pa
+}
+
+#f3 > a {
+	text-decoration: none;
+	color: rgb(0, 136, 204);
+	display: inline-block;
+	border-width: medium;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right: 1px lightgray solid;
+}
