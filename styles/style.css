@@ -1,0 +1,213 @@
+body {
+	background-color: #EEEEEE;
+	margin: 0; 
+}
+
+header {
+	padding-bottom: 15px;
+	background-color: #EEEEEE;
+}
+
+#content {
+	background-color: white;
+    min-height: 768px;
+    max-height: 1000000px;
+    position: relative;
+    top: 20px;
+    border: 2px #999999 solid;
+    margin: auto;
+    width: 1024px;
+
+}
+
+#content-2 {
+	background-color: white;
+    border-bottom: 1px lightgray solid;
+    position: relative;
+    margin: auto;
+    height: 720px;
+    width: 1024px;
+    background-image: url("https://archive.fo/UW4oR/bf13112842d2dd0160466e36cfafac05d80eeb41/scr.png");
+}
+
+#nav-buttons {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))),no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));	
+    height: 36px;
+    top: 83px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	width: 980px;
+	text-align: left;
+	box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	border-radius: 4px;
+	font-size: 12px;
+	line-height: 18px;
+	z-index: 9998;
+}
+
+#global-nav {
+	display: table;
+	float: left;
+	width: 845px;
+	table-layout: fixed;
+	list-style: none outside;
+	-webkit-transition: width 0.3s ease-in-out;
+}
+
+#gn-apple {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+	height: 40px;
+	color:  #08c;
+	position: relative;
+	top: 5px;
+	text-align: center;
+}
+
+.nav-icons {
+	display: block;
+	float: none;
+	text-decoration: none;
+	border-style: solid;
+	background-position: 0 0;
+	border-width: 0 2px 0 0;
+	border-radius: 4px 0 0 4px;
+	width: auto;
+	background: none;
+	cursor: pointer;
+	color: #333;
+	outline: none;
+}
+
+.nav-icons > span {
+	display: block;
+	width: 100%;
+	height: 30px;
+	margin: 4px auto;
+	text-align: center;
+	color: white;
+	background-position: 50% 0;
+}
+
+#gn-store {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+	height: 36px;
+	color:  #333;
+
+}
+
+#gn-mac {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+	height: 36px;
+	color:  #333;
+}
+
+#gn-ipod {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+	height: 36px;
+	color:  #333;
+}
+
+#gn-iphone {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+	height: 36px;
+	color:  #333;
+}
+
+#gn-ipad {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+	height: 36px;
+	color:  #333;
+}
+
+#gn-itunes {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+	height: 36px;
+	color:  #333;
+}
+
+#gn-support {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+	height: 36px;
+	color:  #333;
+}
+
+#global-search {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 106px;
+	padding: 8px 13px;
+	background: none;
+	border-width: 0 2px 0 1px;
+	-webkit-transition: width 0.3s ease-in-out;
+	color: #333;
+}
+
+#search-form {
+	display: block;
+	color: rgb(255, 255, 255);
+	position: relative;
+	top: -1px;
+	width: 109px;
+	height: 18.5px;
+	background-image: none;
+	background-color: rgba(255, 255, 255, 0.0976562);
+	border-top-left-radius: 12px 12px;
+	border-top-right-radius: 12px 12px;
+	border-bottom-right-radius: 12px 12px;
+	border-bottom-left-radius: 12px 12px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.398438) 0px -1px 0px, rgba(255, 255, 255, 0.199219) 0px 1px 0px;
+	background-repeat: no-repeat;
+	border-width: 0px;
+	border-style: none;
+	margin: 1px 0px 0px;
+	padding: 0px;
+	border-color: white;
+}
+
+#g-search {
+	display: block;
+	position: relative;
+	top: -18px;
+}
+
+input {
+	text-align: left;
+	-webkit-appearance: none;
+	color: rgb(255, 255, 255);
+	background-color: transparent;
+	width: 100%;
+	height: 19px;
+	background-image: none;
+	border-top-left-radius: 12px 12px;
+	border-top-right-radius: 12px 12px;
+	border-bottom-right-radius: 12px 12px;
+	border-bottom-left-radius: 12px 12px;
+	-moz-box-sizing: border-box;
+	border-width: 0px;
+	border-style: none;
+	margin: 0px 0px -1px;
+	padding: 2px 18px 1px 22px;
+	border-color: white;
+}
+
+
