@@ -1,6 +1,7 @@
 body {
 	background-color: #EEEEEE;
 	margin: 0; 
+
 }
 
 header {
@@ -10,8 +11,7 @@ header {
 
 #content {
 	background-color: white;
-    min-height: 768px;
-    max-height: 1000000px;
+    height: 1024px;
     position: relative;
     top: 20px;
     border: 2px #999999 solid;
@@ -21,13 +21,13 @@ header {
 }
 
 #content-2 {
-	background-color: white;
-    border-bottom: 1px lightgray solid;
+	border-bottom: 1px lightgray solid;
     position: relative;
     margin: auto;
-    height: 720px;
     width: 1024px;
-    background-image: url("https://archive.fo/UW4oR/bf13112842d2dd0160466e36cfafac05d80eeb41/scr.png");
+    height: 710px;
+    background-image: url("../last.jpg");
+    
 }
 
 #nav-buttons {
@@ -61,24 +61,29 @@ header {
 	width: 100%;
 	overflow: hidden;
 	height: 40px;
-	color:  #08c;
+	color:  lightgray;
 	position: relative;
 	top: 5px;
 	text-align: center;
+}
+
+.fa fa-apple {
+	font-size:24px; 
+	color: white;
 }
 
 .nav-icons {
 	display: block;
 	float: none;
 	text-decoration: none;
-	border-style: solid;
+	border-style: hidden;
 	background-position: 0 0;
 	border-width: 0 2px 0 0;
 	border-radius: 4px 0 0 4px;
 	width: auto;
 	background: none;
 	cursor: pointer;
-	color: #333;
+	color: gray;
 	outline: none;
 }
 
@@ -97,7 +102,7 @@ header {
 	width: 100%;
 	overflow: hidden;
 	height: 36px;
-	color:  #333;
+	color:  lightgray;
 
 }
 
@@ -106,7 +111,7 @@ header {
 	width: 100%;
 	overflow: hidden;
 	height: 36px;
-	color:  #333;
+	color:  lightgray;
 }
 
 #gn-ipod {
@@ -114,7 +119,7 @@ header {
 	width: 100%;
 	overflow: hidden;
 	height: 36px;
-	color:  #333;
+	color:  lightgray;
 }
 
 #gn-iphone {
@@ -122,7 +127,7 @@ header {
 	width: 100%;
 	overflow: hidden;
 	height: 36px;
-	color:  #333;
+	color:  lightgray;
 }
 
 #gn-ipad {
@@ -130,7 +135,7 @@ header {
 	width: 100%;
 	overflow: hidden;
 	height: 36px;
-	color:  #333;
+	color:  lightgray;
 }
 
 #gn-itunes {
@@ -138,7 +143,7 @@ header {
 	width: 100%;
 	overflow: hidden;
 	height: 36px;
-	color:  #333;
+	color:  lightgray;
 }
 
 #gn-support {
@@ -146,7 +151,7 @@ header {
 	width: 100%;
 	overflow: hidden;
 	height: 36px;
-	color:  #333;
+	color:  lightgray;
 }
 
 #global-search {
@@ -184,6 +189,13 @@ header {
 	border-color: white;
 }
 
+.fa fa-search {
+	width:  15px; 
+	height: 14px; 
+	margin-left: 6px; 
+	margin-top: 3px;
+}
+
 #g-search {
 	display: block;
 	position: relative;
@@ -210,10 +222,104 @@ input {
 	border-color: white;
 }
 
+.first-body {
+	display: block;
+	position: relative;
+	top: -900px;
+	background-color: transparent;
+}
+
+.first-body > a {
+	text-decoration: none;
+}
+
+.fa fa-play-circle-o {
+	font-size:36px; 
+	color: white;
+}
+
+a > h2 {
+	font-size: 60px;
+	 background-color: transparent;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	color: white;
+	height: 104px;
+	width: 980px;
+	margin: auto;
+	border-style: none;
+	border-color: white;
+	font-style: normal;
+	line-height: 36px;
+}
+
+a > h3 {
+	font-size: 35px;
+	line-height: 45px;
+	background-color: transparent;
+	display: block;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	color: white;
+	height: 82px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: none;
+	border-color: white;
+	font-style: normal;
+}
+
+a > h4 {
+	font-size: 25px;
+	line-height: 45px;
+	background-color: transparent;
+	display: block;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	top: 70px;
+	color: white;
+	height: 82px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: none;
+	border-color: white;
+	font-style: normal;
+}
+
+#footer-image {
+	display: block;
+ 	justify-content: center;
+	text-align: center;
+	position: relative;
+	top: -680px;
+	margin: auto;
+}
+
+.f-image {
+	height: 200px;
+	width: 253.5px;
+	border-style: none;
+	border-color: black;
+	
+}
+
 footer {
-	margin-top: 10px;
 	width: 1024px;
 	height: 90px;
+	display: block;
+ 	justify-content: center;
+	text-align: center;
+	position: relative;
+	top: -680px;
+	margin: auto;
 }
 
 #footer1 {
