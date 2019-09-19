@@ -222,7 +222,7 @@ input {
   border-bottom-left-radius: 12px 12px;
   -moz-box-sizing: border-box;
   border-style: none;
-  margin: 0px 0px -1px;
+  margin: -1px;
   padding: 2px 18px 1px 25px;
   border-color: white;
 }
@@ -245,7 +245,7 @@ p > a {
   text-decoration: none;
 }
 
-.fa fa-play-circle-o {
+.fa-play-circle-o {
   font-size: 36px; 
   color: white;
 }
