@@ -1,11 +1,11 @@
 body {
-  background-color: #eeeeee;
+  background-color: #eee;
   margin: 0; 
 }
 
 header {
   padding-bottom: 15px;
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
 #content {
@@ -189,7 +189,7 @@ header {
   border-top-right-radius: 12px 12px;
   border-bottom-right-radius: 12px 12px;
   border-bottom-left-radius: 12px 12px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.398438) 0px -1px 0px, rgba(255, 255, 255, 0.199219) 0px 1px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.398438) -1px, rgba(255, 255, 255, 0.199219) 1px;
   background-repeat: no-repeat;
   border-style: none;
   border-color: white;
@@ -221,7 +221,6 @@ input {
   border-bottom-right-radius: 12px 12px;
   border-bottom-left-radius: 12px 12px;
   -moz-box-sizing: border-box;
-  border-width: 0px;
   border-style: none;
   margin: 0px 0px -1px;
   padding: 2px 18px 1px 25px;
@@ -305,7 +304,7 @@ a > h4 {
   border-style: none;
   border-color: white;
   font-style: normal;
-}  
+}
 
 #footer-image {
   display: block;
