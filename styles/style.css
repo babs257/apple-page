@@ -1,6 +1,7 @@
 body {
   background-color: #eee;
-  margin: 0; 
+  margin: 0;
+
 }
 
 header {
@@ -24,11 +25,13 @@ header {
   margin: auto;
   width: 1024px;
   height: 710px;
-  background-image: url("../last.jpg");   
+  background-image: url("../last.jpg");
+
 }
 
 #nav-buttons {
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))),no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));	
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));	
+ 
   height: 36px;
   top: 87px;
   margin: 0 auto;
@@ -36,7 +39,7 @@ header {
   display: block;
   width: 980px;
   text-align: left;
-  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   border-radius: 4px;
   font-size: 12px;
@@ -66,6 +69,7 @@ header {
 
 .fa-apple {
   font-size: 19px; 
+
   color: white;
 }
 
@@ -196,9 +200,12 @@ header {
 }
 
 .fa-search {
-  width: 15px; 
+  width: 15px;
+
   height: 14px; 
-  margin-left: 6px; 
+
+  margin-left: 6px;
+
   margin-top: 3px;
 }
 
@@ -215,7 +222,8 @@ input {
   background-color: transparent;
   width: 100%;
   height: 19px;
-  background-image: none; 
+  background-image: none;
+
   border-top-left-radius: 12px 12px;
   border-top-right-radius: 12px 12px;
   border-bottom-right-radius: 12px 12px;
@@ -246,7 +254,8 @@ p > a {
 }
 
 .fa-play-circle-o {
-  font-size: 36px; 
+  font-size: 36px;
+
   color: white;
 }
 
@@ -262,7 +271,8 @@ a > h2 {
   height: 104px;
   width: 980px;
   margin: auto;
-  border-style: none; 
+  border-style: none;
+
   border-color: white;
   font-style: normal;
   line-height: 36px;
@@ -300,14 +310,15 @@ a > h4 {
   height: 82px;
   width: 900px;
   margin-right: auto;
-  margin-left: auto; 
+  margin-left: auto;
+
   border-style: none;
   border-color: white;
   font-style: normal;
 }
 
 #footer-image {
-  display: block;
+  display: flex;
   justify-content: center;
   text-align: center;
   position: relative;
@@ -317,9 +328,10 @@ a > h4 {
 
 .f-image {
   height: 200px;
-  width: 253.5px;
+  width: 256px;
   border-style: none;
   border-color: black;
+  margin: auto;
 }
 
 footer {
@@ -333,6 +345,7 @@ footer {
   margin: auto;
 }
 
+
 #footer1 {
   display: inline;
   float: left;
@@ -342,7 +355,7 @@ footer {
   font-size: 0.8334em;
   line-height: 1.2;
   margin-top: 4px;
-} 
+}
 
 #footer2 {
   display: inline;
