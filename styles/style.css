@@ -1,7 +1,5 @@
 body {
   background-color: #eee;
-  margin: 0;
-
 }
 
 header {
@@ -26,12 +24,10 @@ header {
   width: 1024px;
   height: 710px;
   background-image: url("../last.jpg");
-
 }
 
 #nav-buttons {
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));	
- 
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
   height: 36px;
   top: 87px;
   margin: 0 auto;
@@ -69,7 +65,6 @@ header {
 
 .fa-apple {
   font-size: 19px; 
-
   color: white;
 }
 
@@ -223,7 +218,6 @@ input {
   width: 100%;
   height: 19px;
   background-image: none;
-
   border-top-left-radius: 12px 12px;
   border-top-right-radius: 12px 12px;
   border-bottom-right-radius: 12px 12px;
@@ -255,7 +249,6 @@ p > a {
 
 .fa-play-circle-o {
   font-size: 36px;
-
   color: white;
 }
 
@@ -272,7 +265,6 @@ a > h2 {
   width: 980px;
   margin: auto;
   border-style: none;
-
   border-color: white;
   font-style: normal;
   line-height: 36px;
