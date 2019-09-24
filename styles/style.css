@@ -1,3 +1,7 @@
+{
+  	box-sizing: border-box;
+}
+
 body {
   background-color: #eee;
 }
@@ -10,24 +14,19 @@ header {
 #content {
   background-color: white;
   height: 1024px;
-  position: relative;
-  top: 20px;
-  border: 2px #999 solid;
   margin: auto;
-  width: 1024px;
-}
+ }
 
 #content-2 {
   border-bottom: 1px lightgray solid;
   position: relative;
   margin: auto;
-  width: 1024px;
   height: 710px;
-  background-image: url("../last.jpg");
+  background: url("../last.jpg") center no-repeat;
 }
 
 #nav-buttons {
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  background: linear-gradient( rgb(153, 149, 149) 0%, rgb(110, 110, 110) 45%, rgb(80, 80, 80) 50%, rgb(120, 120, 120) 98%);
   height: 36px;
   top: 87px;
   margin: 0 auto;
@@ -58,18 +57,18 @@ header {
   overflow: hidden;
   height: 40px;
   color: lightgray;
-  position: relative;
-  top: 6px;
   text-align: center;
+  vertical-align: middle;
 }
 
 .fa-apple {
-  font-size: 19px;
+  font-size: 24px;
   color: white;
 }
 
 .nav-icons {
   display: block;
+  vertical-align: middle;
   float: none;
   text-decoration: none;
   border-style: hidden;
@@ -79,15 +78,19 @@ header {
   width: auto;
   cursor: pointer;
   color: gray;
-  outline: none;
+}
+
+.nav-icons:hover {
+  background: rgb(66, 65, 65);
+  text-decoration: none;
+  cursor: pointer;
+  height: 40px;
 }
 
 .nav-icons > span {
-  display: block;
   width: 100%;
-  height: 30px;
-  margin: 4px auto;
-  text-align: center;
+  height: 40px;
+  vertical-align: middle;
   color: white;
   background-position: 50% 0;
 }
@@ -96,70 +99,70 @@ header {
   display: table-cell;
   width: 100%;
   overflow: hidden;
-  height: 36px;
+  height: 40px;
   color: lightgray;
-  position: relative;
-  top: 6px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #gn-mac {
   display: table-cell;
   width: 100%;
   overflow: hidden;
-  height: 36px;
+  height: 40px;
   color: lightgray;
-  position: relative;
-  top: 6px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #gn-ipod {
   display: table-cell;
   width: 100%;
   overflow: hidden;
-  height: 36px;
+  height: 40px;
   color: lightgray;
-  position: relative;
-  top: 6px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #gn-iphone {
   display: table-cell;
   width: 100%;
   overflow: hidden;
-  height: 36px;
+  height: 40px;
   color: lightgray;
-  position: relative;
-  top: 6px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #gn-ipad {
   display: table-cell;
   width: 100%;
   overflow: hidden;
-  height: 36px;
+  height: 40px;
   color: lightgray;
-  position: relative;
-  top: 6px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #gn-itunes {
   display: table-cell;
   width: 100%;
   overflow: hidden;
-  height: 36px;
+  height: 40px;
   color: lightgray;
-  position: relative;
-  top: 6px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #gn-support {
   display: table-cell;
   width: 100%;
   overflow: hidden;
-  height: 36px;
+  height: 40px;
   color: lightgray;
-  position: relative;
-  top: 6px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #global-search {
@@ -178,8 +181,7 @@ header {
 #search-form {
   display: block;
   color: rgb(255, 255, 255);
-  position: relative;
-  top: -1px;
+  vertical-align: middle;
   width: 109px;
   height: 18.5px;
   background-image: none;
@@ -306,17 +308,17 @@ a > h4 {
 }
 
 #footer-image {
-  display: flex;
+  display: block;
   justify-content: center;
-  text-align: center;
-  position: relative;
-  top: -680px;
   margin: auto;
+  background-size: auto;
+  position: relative;
+  top: -700px;
 }
 
 .f-image {
-  height: 200px;
-  width: 256px;
+  height: 240px;
+  width: 331px;
   border-style: none;
   border-color: black;
   margin: auto;
@@ -334,21 +336,20 @@ footer {
 }
 
 #footer1 {
-  display: inline;
   float: left;
-  clear: both;
+  position: relative;
+  left: -100px;
   text-align: left;
-  margin-left: 20px;
   font-size: 0.8334em;
   line-height: 1.2;
   margin-top: 4px;
 }
 
 #footer2 {
-  display: inline;
   float: right;
+  position: relative;
+  right: -100px;
   text-align: right;
-  margin-right: 15px;
   margin-top: 6px;
   list-style: none outside none;
   font-size: 0.8334em;
@@ -371,14 +372,15 @@ footer {
 }
 
 #footer3 {
-  display: inline;
   float: left;
   clear: both;
+  position: relative;
+  left: -100px;
+  margin: auto;
   text-align: left;
-  margin-left: 20px;
   font-size: 0.8334em;
   line-height: 1.2;
-  margin-top: 4px;
+  margin-top: 3px;
 }
 
 #f3 > a {
