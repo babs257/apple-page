@@ -218,9 +218,10 @@ input {
 }
 
 main {
-	position: relative;
-	top: 100px;
+  position: relative;
+  top: 100px;
 }
+
 .first-body {
   display: block;
   background-color: transparent;
