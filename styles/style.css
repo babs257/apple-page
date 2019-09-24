@@ -1,5 +1,5 @@
 {
-  	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,7 +15,7 @@ header {
   background-color: white;
   height: 1024px;
   margin: auto;
- }
+}
 
 #content-2 {
   border-bottom: 1px lightgray solid;
@@ -26,7 +26,7 @@ header {
 }
 
 #nav-buttons {
-  background: linear-gradient( rgb(153, 149, 149) 0%, rgb(110, 110, 110) 45%, rgb(80, 80, 80) 50%, rgb(120, 120, 120) 98%);
+  background: linear-gradient(rgb(153, 149, 149) 0%, rgb(110, 110, 110) 45%, rgb(80, 80, 80) 50%, rgb(120, 120, 120) 98%);
   height: 36px;
   top: 87px;
   margin: 0 auto;
